@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Header -->
+    <head>
+        <title>CatPhotoApp</title>
+    </head>
+    <body>
+        <h2>CatPhotoApp</h2>
+        <main>
+            <h3>Cat Photos</h3>
+            <!-- 
+                a: ancor(for make a link)
+                href: references(link)
+                _blank: open on new tab 
+                                            -->
+            <p>Click here to iew more <a href="#" target="_blank">cat photo</a>.</p>
+            <!-- 
+                scr: source 
+                alt: description 
+                                    -->
+            <a href="#"><img src="https://i.pinimg.com/736x/e3/aa/17/e3aa175ead3fd9064ce4ef128973fd96.jpg" alt="A cute grey white cat."></a>
+            <h3>Cat Lists</h3>
+            <!-- 
+                div: division element group
+                                            -->
+            <div class="lists"></div>
+                <p>Things cat <em>hate</em>:</p>
+                <!-- 
+                    Unordered List
+                    List Item
+                    Order List
+                                -->
+                <ul>
+                    <li>cat nip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                <img src="lasagna.jpg" alt="Lasagna">
+                <p>Things cat <strong>hate</strong>:</p>
+                <ol>
+                    <li>flea treatmen</li>
+                    <li>thunder</li>
+                    <li>other cats</li>
+                </ol>
+            </div>
+            <img src="cats.jpg" alt="Cats">
+            <!-- Form Area -->
+            <form action="/submit-cat-photo">  <!-- Tempat menyimpan data -->
+                <!-- 
+                    label: mewakili item
+                    name: mengelompokkan (agar salah satu yg dipilih)
+                    for: enghubungkanlabel berdasarkan id 
+                    checked: otomatis tercentang
+                                                                        -->
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> Indoor </label><br>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor </label><br>
+
+                <label for="loving"><input id="loving" type="checkbox" name="personality" checked> Loving </label><br>
+                <label for="laxy"><input id="laxy" type="checkbox" name="personality"> Lazy </label><br>
+                <label for="energetic"><input id="energetic" type="checkbox" name="personality"> Energetic </label><br>
+
+                <!-- 
+                    requered: wajib diisi 
+                                            -->
+                <input type="text" placeholder="Cat Photo URL" required><br> 
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <p><small>Copy Right - <a href="https://github.com/Saditta">Sadittta</a></small></p>
+        </footer>
+    </body>
+</html>

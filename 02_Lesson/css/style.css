@@ -1,0 +1,47 @@
+html {
+    font-size: 22px;
+}
+
+/* universal selector
+* {
+    font-family: monospace;
+} */
+
+body {
+    
+} 
+
+main {
+    font-family: monospace;
+}
+
+button, input, textarea, select {
+    font: inherit;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+/* . untuk inisialisasi class */
+.gray {
+    color: gray;
+}
+
+p {
+    color: purple/* !important: mengubah semunya secara paksa (not to use) */; 
+}
+
+p {
+    color: red;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/* # untuk inisialisasi id (not to use id to css) */
+#second {
+    font-style: italic;
+}
