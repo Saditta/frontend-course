@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 
+
+Tipografi adalah cara 
+teks disusun dan disajikan
+
+*/
+
+body {
+    padding: 10%;
+    font-size: 2rem; /* 32px */
+    font-family: "Roboto", sans-serif;
+}
+
+/* 
+input, button {
+    font: inherit;
+} 
+*/
+
+p {
+    text-decoration: none; /* memberi garis pada text */
+    text-transform: none; /* mengatur besar kecil huruf */
+    text-align: none; /* rata kanan-kiri */
+    text-indent: none em; /* membuat paragraf menjorok */
+    line-height: 1.5; /* membuat jarak pada text */
+    letter-spacing: none em; /* membuat jarak pada huruf */
+    word-spacing: none em; /* membuat jarak pada kata */
+    font-weight: none; /* mengatur bobot huruf */
+    font-style: normal; /* mengatur gaya huruf */
+}
