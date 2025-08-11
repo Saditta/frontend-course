@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* main {
+    opacity: 0.4;
+} */
+
+a {
+    color: steelblue;
+    /* text-decoration: none;  menghilangkan under-line pada link */
+    /* cursor: pointer;  point saat mengarah ke link */
+    /* color: blue; */
+}
+
+/* : sudo class */
+a:visited { /* berubah warna setelah memencet link */
+    color: purple;
+}
+
+a:hover, a:focus { /* berubah warna sebelum memencet link */
+    color: hsl(207, 44%, 49%, 0.8);
+    /* opacity: 0.8; untuk transparansi*/
+    background: gold;
+}
+
+a:active {
+    color: red;
+}
